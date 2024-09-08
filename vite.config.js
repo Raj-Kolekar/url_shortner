@@ -14,4 +14,9 @@ export default defineConfig({
   rules: {
     "react/prop-types": 0,
   },
+  build: {
+    rollupOptions: {
+      external: ['/assets/index-D6Aodm5k.js']
+    }
+  },
 });
