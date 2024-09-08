@@ -25,7 +25,7 @@ const Header = () => {
     <>
       <nav className="py-4 flex justify-between items-center">
         <Link to="/">
-          <img src="/logo.png" className="h-16" alt="Trimrr Logo" />
+          <img src="/Screenshot.png" className="h-16" alt="trimer Logo" />
         </Link>
         <div className="flex gap-4">
           {!user ? (
@@ -35,7 +35,7 @@ const Header = () => {
               <DropdownMenuTrigger className="w-10 rounded-full overflow-hidden">
                 <Avatar>
                   <AvatarImage src={user?.user_metadata?.profile_pic} />
-                  <AvatarFallback>PA</AvatarFallback>
+                  <AvatarFallback>RK</AvatarFallback>
                 </Avatar>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
